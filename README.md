@@ -1,9 +1,11 @@
 # SmartQueen
+
+<p align="center" style="display:block;">
 Knowledge base around smartphones
-
+<br><br>
 <img src="OntoGraf Screenshot.png" alt="Ontology screenshot" width="55%">
+</p>
 
-Goals:
 * Help customers to be aware of the technologies and manufacturers' hooks in devices planned to buy
 * Know about the experience of users around the world
 * Digitizing the experience of people from forums (with sources' links)
@@ -22,6 +24,6 @@ We use ontology editors (Protege Desktop 5.5 on the screen)
 * [OWL](https://en.wikipedia.org/wiki/Web_Ontology_Language) ([W3C reference](https://www.w3.org/TR/owl-ref/))
 * [SPARQL](https://en.wikipedia.org/wiki/SPARQL) ([W3C standard](https://www.w3.org/TR/sparql11-query/))
 
-# TODO
+## TODO
 * Populate with data from Wikipedia and forums
 * Hosts SPARQL endpoint
