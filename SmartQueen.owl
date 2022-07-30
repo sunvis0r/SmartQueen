@@ -1,0 +1,1107 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="urn:absolute:smartphones#"
+     xml:base="urn:absolute:smartphones"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:dcterms="http://purl.org/dc/terms/">
+    <owl:Ontology rdf:about="https://github.com/sunvis0r/SmartQueen">
+        <dc:title>SmartQueen</dc:title>
+        <dcterms:description xml:lang="en">Knowledge base around smartphones.
+Goals:
+	Help customers to be aware of the technologies and manufacturers&apos; hooks in devices planned to buy
+	Know about the experience of users around the world
+	Digitizing the experience of people from forums (with sources&apos;; links)
+	Personal guide for users and repairers</dcterms:description>
+        <dcterms:license xml:lang="en">https://creativecommons.org/licenses/by/3.0/</dcterms:license>
+        <rdfs:comment xml:lang="en">From year to year, companies complicate devices, tricking and adding new and new technologies, one way or another stealing user personal data and establishing their own rules on the purchased device. This evolution is reminiscent of the Red Queen hypothesis (https://en.wikipedia.org/wiki/Red_Queen_hypothesis)</rdfs:comment>
+        <rdfs:seeAlso xml:lang="en">https://github.com/sunvis0r/SmartQueen/blob/main/README.md</rdfs:seeAlso>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/date -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_047d4127_59ae_4d4d_9c13_140e6d10f83f -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_047d4127_59ae_4d4d_9c13_140e6d10f83f">
+        <rdfs:subClassOf rdf:resource="https://github.com/sunvis0r/SmartQueen#OWLClass_dec03b25_6d0c_4323_8670_711efdd1721e"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T09:21:54Z</dc:date>
+        <rdfs:label xml:lang="en">MicroSD slot</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_05bb9faf_a1ab_4b00_9d34_c7657c424147 -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_05bb9faf_a1ab_4b00_9d34_c7657c424147">
+        <rdfs:subClassOf rdf:resource="https://github.com/sunvis0r/SmartQueen#OWLClass_bcc9a6dd_735f_4034_8518_a864175c404c"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T12:52:01Z</dc:date>
+        <rdfs:label xml:lang="en">iPhone 5s</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_084662bd_a1a3_4274_aa63_7688c9c6de63 -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_084662bd_a1a3_4274_aa63_7688c9c6de63">
+        <rdfs:subClassOf rdf:resource="https://github.com/sunvis0r/SmartQueen#OWLClass_bcc9a6dd_735f_4034_8518_a864175c404c"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T12:52:01Z</dc:date>
+        <rdfs:label xml:lang="en">iPhone 4s</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_09d5be3b_e56f_4e26_89eb_cfb6f3e16005 -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_09d5be3b_e56f_4e26_89eb_cfb6f3e16005">
+        <rdfs:subClassOf rdf:resource="https://github.com/sunvis0r/SmartQueen#OWLClass_bcc9a6dd_735f_4034_8518_a864175c404c"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T12:52:01Z</dc:date>
+        <rdfs:label xml:lang="en">iPhone 4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_12dba90e_0a61_4b07_8ed3_06c2b3bb9d6c -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_12dba90e_0a61_4b07_8ed3_06c2b3bb9d6c">
+        <rdfs:subClassOf rdf:resource="https://github.com/sunvis0r/SmartQueen#OWLClass_489d512c_aff9_4207_900f_e0a2523f17dd"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T13:21:11Z</dc:date>
+        <rdfs:label xml:lang="en">&quot;Home&quot; button</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_135de65f_02b0_414d_bfa5_fe957d843fae -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_135de65f_02b0_414d_bfa5_fe957d843fae">
+        <rdfs:subClassOf rdf:resource="https://github.com/sunvis0r/SmartQueen#OWLClass_dec03b25_6d0c_4323_8670_711efdd1721e"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T09:20:11Z</dc:date>
+        <rdfs:comment xml:lang="en">It&apos;s a special case of the ability to switch between local accounts
+(In a sense)</rdfs:comment>
+        <rdfs:label xml:lang="en">Work profile</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_13c54645_3c53_4594_a3ba_097267ceaf91 -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_13c54645_3c53_4594_a3ba_097267ceaf91">
+        <rdfs:subClassOf rdf:resource="https://github.com/sunvis0r/SmartQueen#OWLClass_5a83d554_161a_4460_88e9_798d73fbadc0"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T09:33:13Z</dc:date>
+        <rdfs:label xml:lang="en">Emteria.OS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_14631e95_c05d_447c_a8fe_b912176f976b -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_14631e95_c05d_447c_a8fe_b912176f976b">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T13:05:49Z</dc:date>
+        <rdfs:label xml:lang="en">Parameters</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_17e7db35_fbd0_4299_861d_6c611f657ad7 -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_17e7db35_fbd0_4299_861d_6c611f657ad7">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T09:17:20Z</dc:date>
+        <rdfs:label xml:lang="en">Manufactureres</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_1c4ae362_9dca_4fe0_a0d9_71d685a6181d -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_1c4ae362_9dca_4fe0_a0d9_71d685a6181d">
+        <rdfs:subClassOf rdf:resource="https://github.com/sunvis0r/SmartQueen#OWLClass_bcc9a6dd_735f_4034_8518_a864175c404c"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T12:52:01Z</dc:date>
+        <rdfs:label xml:lang="en">iPhone 3G</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_1d082e3c_8bf4_42cb_9a9b_db4a9e30d464 -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_1d082e3c_8bf4_42cb_9a9b_db4a9e30d464">
+        <rdfs:subClassOf rdf:resource="https://github.com/sunvis0r/SmartQueen#OWLClass_58269497_45dc_4e39_a104_4c53f6080ea7"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T10:04:20Z</dc:date>
+        <rdfs:label xml:lang="en">Galaxy Nexus</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://github.com/sunvis0r/SmartQueen#OWLClass_45ae6527_99aa_4cbf_aa95_a5adfef4e26c"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_1e2befa2_e1de_42bc_96f5_f4c194376cc9 -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_1e2befa2_e1de_42bc_96f5_f4c194376cc9">
+        <rdfs:subClassOf rdf:resource="https://github.com/sunvis0r/SmartQueen#OWLClass_4652f0c7_ad36_4251_831c_41f1a498448d"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T09:35:13Z</dc:date>
+        <rdfs:label xml:lang="en">Presence of physical buttons</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_23036f42_46be_48db_a5e1_a15a8fe48c47 -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_23036f42_46be_48db_a5e1_a15a8fe48c47">
+        <rdfs:subClassOf rdf:resource="https://github.com/sunvis0r/SmartQueen#OWLClass_9ff15b1a_215c_477f_a3e8_0d505156cf78"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T12:44:55Z</dc:date>
+        <rdfs:label xml:lang="en">Samsung Galaxy W</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_238c38d5_0551_4d15_88c0_ab3e2c4de5ab -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_238c38d5_0551_4d15_88c0_ab3e2c4de5ab">
+        <rdfs:subClassOf rdf:resource="https://github.com/sunvis0r/SmartQueen#OWLClass_56a9b768_2d37_47c4_888c_69e2860ad7bb"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T09:20:04Z</dc:date>
+        <rdfs:label xml:lang="en">HONOR</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_262f1434_563e_4e0e_a704_30b0040fab6f -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_262f1434_563e_4e0e_a704_30b0040fab6f">
+        <rdfs:subClassOf rdf:resource="https://github.com/sunvis0r/SmartQueen#OWLClass_bcc9a6dd_735f_4034_8518_a864175c404c"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T12:52:01Z</dc:date>
+        <rdfs:comment xml:lang="en">original iPhone
+iPhone 1
+iPhone 2G</rdfs:comment>
+        <rdfs:label xml:lang="en">iPhone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_2a90f773_839e_4759_a321_3e9adea0938d -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_2a90f773_839e_4759_a321_3e9adea0938d">
+        <rdfs:subClassOf rdf:resource="https://github.com/sunvis0r/SmartQueen#OWLClass_56a9b768_2d37_47c4_888c_69e2860ad7bb"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T09:28:30Z</dc:date>
+        <rdfs:label xml:lang="en">Realme</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_2d11f63c_c1e0_4549_9b55_8a177ff3d625 -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_2d11f63c_c1e0_4549_9b55_8a177ff3d625">
+        <rdfs:subClassOf rdf:resource="https://github.com/sunvis0r/SmartQueen#OWLClass_56a9b768_2d37_47c4_888c_69e2860ad7bb"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T09:20:04Z</dc:date>
+        <rdfs:label xml:lang="en">Xiaomi</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_3025711e_326e_4e78_af8f_1bd023ee1840 -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_3025711e_326e_4e78_af8f_1bd023ee1840">
+        <rdfs:subClassOf rdf:resource="https://github.com/sunvis0r/SmartQueen#OWLClass_58269497_45dc_4e39_a104_4c53f6080ea7"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T10:04:07Z</dc:date>
+        <rdfs:label xml:lang="en">Google Nexus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_325d71dd_c06b_4c03_9298_2cc030741f85 -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_325d71dd_c06b_4c03_9298_2cc030741f85">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T09:18:06Z</dc:date>
+        <rdfs:label xml:lang="en">Operating systems</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_32ee889b_e97f_4d7e_8ffb_76041f4bb47a -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_32ee889b_e97f_4d7e_8ffb_76041f4bb47a">
+        <rdfs:subClassOf rdf:resource="https://github.com/sunvis0r/SmartQueen#OWLClass_5a83d554_161a_4460_88e9_798d73fbadc0"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T09:33:13Z</dc:date>
+        <rdfs:label xml:lang="en">ColorOS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_33e2dcf0_58cc_4b50_b491_ea3e89275f6e -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_33e2dcf0_58cc_4b50_b491_ea3e89275f6e">
+        <rdfs:subClassOf rdf:resource="https://github.com/sunvis0r/SmartQueen#OWLClass_5a83d554_161a_4460_88e9_798d73fbadc0"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T09:33:13Z</dc:date>
+        <rdfs:label xml:lang="en">Replicant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_3751d541_0552_4775_8114_c3bab4f104f9 -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_3751d541_0552_4775_8114_c3bab4f104f9">
+        <rdfs:subClassOf rdf:resource="https://github.com/sunvis0r/SmartQueen#OWLClass_79f71338_786e_48a8_ba2c_ac7fe53b0041"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T13:23:01Z</dc:date>
+        <rdfs:label xml:lang="en">Microphone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_3b440fd1_8818_4948_a7cf_c10b8b4d573b -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_3b440fd1_8818_4948_a7cf_c10b8b4d573b">
+        <rdfs:subClassOf rdf:resource="https://github.com/sunvis0r/SmartQueen#OWLClass_5a83d554_161a_4460_88e9_798d73fbadc0"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T09:33:13Z</dc:date>
+        <rdfs:label xml:lang="en">Kali NetHunter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_3bab06cd_b87d_45fb_8ded_0934fe063711 -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_3bab06cd_b87d_45fb_8ded_0934fe063711">
+        <rdfs:subClassOf rdf:resource="https://github.com/sunvis0r/SmartQueen#OWLClass_5a83d554_161a_4460_88e9_798d73fbadc0"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T09:33:13Z</dc:date>
+        <rdfs:label xml:lang="en">LeWa OS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_43ce2400_9385_49eb_a3bc_cdd96e1838a2 -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_43ce2400_9385_49eb_a3bc_cdd96e1838a2">
+        <rdfs:subClassOf rdf:resource="https://github.com/sunvis0r/SmartQueen#OWLClass_dec03b25_6d0c_4323_8670_711efdd1721e"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T13:30:42Z</dc:date>
+        <rdfs:label xml:lang="en">Bluetooth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_45ae6527_99aa_4cbf_aa95_a5adfef4e26c -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_45ae6527_99aa_4cbf_aa95_a5adfef4e26c">
+        <rdfs:subClassOf rdf:resource="https://github.com/sunvis0r/SmartQueen#OWLClass_58269497_45dc_4e39_a104_4c53f6080ea7"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T10:04:47Z</dc:date>
+        <rdfs:label xml:lang="en">Google Pixel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_4652f0c7_ad36_4251_831c_41f1a498448d -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_4652f0c7_ad36_4251_831c_41f1a498448d">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T09:24:06Z</dc:date>
+        <rdfs:label xml:lang="en">Advantages</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_46a3987e_bda9_408a_b883_01d130e1a87a -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_46a3987e_bda9_408a_b883_01d130e1a87a">
+        <rdfs:subClassOf rdf:resource="https://github.com/sunvis0r/SmartQueen#OWLClass_4652f0c7_ad36_4251_831c_41f1a498448d"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T09:24:21Z</dc:date>
+        <rdfs:label xml:lang="en">128+ gb inner memory</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_489d512c_aff9_4207_900f_e0a2523f17dd -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_489d512c_aff9_4207_900f_e0a2523f17dd">
+        <rdfs:subClassOf rdf:resource="https://github.com/sunvis0r/SmartQueen#OWLClass_79f71338_786e_48a8_ba2c_ac7fe53b0041"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T13:21:16Z</dc:date>
+        <rdfs:label xml:lang="en">Buttons</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_49ef8e3c_d70a_4ae5_96c8_65f1c9144b58 -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_49ef8e3c_d70a_4ae5_96c8_65f1c9144b58">
+        <rdfs:subClassOf rdf:resource="https://github.com/sunvis0r/SmartQueen#OWLClass_dec03b25_6d0c_4323_8670_711efdd1721e"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T13:05:12Z</dc:date>
+        <rdfs:label xml:lang="en">eSIM</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_4ad7bf94_a550_4a8b_bc1d_b2458f8033c1 -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_4ad7bf94_a550_4a8b_bc1d_b2458f8033c1">
+        <rdfs:subClassOf rdf:resource="https://github.com/sunvis0r/SmartQueen#OWLClass_56a9b768_2d37_47c4_888c_69e2860ad7bb"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T09:20:04Z</dc:date>
+        <rdfs:label xml:lang="en">Apple</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_4b4c2faa_0d9b_43c3_bd6c_f4ef40c2e7ce -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_4b4c2faa_0d9b_43c3_bd6c_f4ef40c2e7ce">
+        <rdfs:subClassOf rdf:resource="https://github.com/sunvis0r/SmartQueen#OWLClass_5a83d554_161a_4460_88e9_798d73fbadc0"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T09:33:13Z</dc:date>
+        <rdfs:label xml:lang="en">iodéOS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_4c0783e5_67d5_4594_a087_770ab03aacec -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_4c0783e5_67d5_4594_a087_770ab03aacec">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T09:17:38Z</dc:date>
+        <rdfs:comment xml:lang="en">How countries governments are responding to certain technologies</rdfs:comment>
+        <rdfs:label xml:lang="en">Laws</rdfs:label>
+        <owl:deprecated xml:lang="en">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_52b86655_d407_43dd_8c57_dc80ef93d287 -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_52b86655_d407_43dd_8c57_dc80ef93d287">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T09:24:54Z</dc:date>
+        <rdfs:label xml:lang="en">Series</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_533ec6d2_9a78_4d9a_901d_920a54d52af6 -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_533ec6d2_9a78_4d9a_901d_920a54d52af6">
+        <rdfs:subClassOf rdf:resource="https://github.com/sunvis0r/SmartQueen#OWLClass_5a83d554_161a_4460_88e9_798d73fbadc0"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T09:33:13Z</dc:date>
+        <rdfs:label xml:lang="en">CalyxOS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_5657b88a_8dbf_4784_a943_562dc5a156e0 -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_5657b88a_8dbf_4784_a943_562dc5a156e0">
+        <rdfs:subClassOf rdf:resource="https://github.com/sunvis0r/SmartQueen#OWLClass_5a83d554_161a_4460_88e9_798d73fbadc0"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T09:33:13Z</dc:date>
+        <rdfs:label xml:lang="en">CyanogenMod</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_56a9b768_2d37_47c4_888c_69e2860ad7bb -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_56a9b768_2d37_47c4_888c_69e2860ad7bb">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T09:18:43Z</dc:date>
+        <rdfs:label xml:lang="en">Brands</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_58269497_45dc_4e39_a104_4c53f6080ea7 -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_58269497_45dc_4e39_a104_4c53f6080ea7">
+        <rdfs:subClassOf rdf:resource="https://github.com/sunvis0r/SmartQueen#OWLClass_52b86655_d407_43dd_8c57_dc80ef93d287"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T10:04:04Z</dc:date>
+        <rdfs:label xml:lang="en">Google</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_5987a065_e5d3_459c_aa6a_62760e2d0511 -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_5987a065_e5d3_459c_aa6a_62760e2d0511">
+        <rdfs:subClassOf rdf:resource="https://github.com/sunvis0r/SmartQueen#OWLClass_9ff15b1a_215c_477f_a3e8_0d505156cf78"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T12:47:46Z</dc:date>
+        <rdfs:label xml:lang="en">Samsung Galaxy Note</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_5a83d554_161a_4460_88e9_798d73fbadc0 -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_5a83d554_161a_4460_88e9_798d73fbadc0">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T09:32:45Z</dc:date>
+        <rdfs:label xml:lang="en">Android distributions</rdfs:label>
+        <rdfs:seeAlso xml:lang="en">https://en.wikipedia.org/wiki/List_of_custom_Android_distributions</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_5aa8190a_6ecb_4e73_b7c5_83f0f20d5fdd -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_5aa8190a_6ecb_4e73_b7c5_83f0f20d5fdd">
+        <rdfs:subClassOf rdf:resource="https://github.com/sunvis0r/SmartQueen#OWLClass_79f71338_786e_48a8_ba2c_ac7fe53b0041"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T13:22:28Z</dc:date>
+        <rdfs:label xml:lang="en">Processor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_5d5c0dcc_c3e6_4bf3_82f1_7aefaec4d67f -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_5d5c0dcc_c3e6_4bf3_82f1_7aefaec4d67f">
+        <rdfs:subClassOf rdf:resource="https://github.com/sunvis0r/SmartQueen#OWLClass_5a83d554_161a_4460_88e9_798d73fbadc0"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T09:33:13Z</dc:date>
+        <rdfs:label xml:lang="en">Resurrection Remix OS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_5e83263a_409e_418c_acae_f68d2f436ad1 -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_5e83263a_409e_418c_acae_f68d2f436ad1">
+        <rdfs:subClassOf rdf:resource="https://github.com/sunvis0r/SmartQueen#OWLClass_5a83d554_161a_4460_88e9_798d73fbadc0"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T09:18:37Z</dc:date>
+        <rdfs:label xml:lang="en">LineageOS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_628d90c9_2ec9_4d6c_9c04_5e67a526f823 -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_628d90c9_2ec9_4d6c_9c04_5e67a526f823">
+        <rdfs:subClassOf rdf:resource="https://github.com/sunvis0r/SmartQueen#OWLClass_325d71dd_c06b_4c03_9298_2cc030741f85"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T09:33:37Z</dc:date>
+        <rdfs:label xml:lang="en">LineageOS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_69ec2dba_d3b4_4beb_9d87_62840c003f81 -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_69ec2dba_d3b4_4beb_9d87_62840c003f81">
+        <rdfs:subClassOf rdf:resource="https://github.com/sunvis0r/SmartQueen#OWLClass_5a83d554_161a_4460_88e9_798d73fbadc0"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T09:33:13Z</dc:date>
+        <rdfs:label xml:lang="en">OxygenOS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_6b59adc3_d805_4e79_9ad4_cf411f556693 -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_6b59adc3_d805_4e79_9ad4_cf411f556693">
+        <rdfs:subClassOf rdf:resource="https://github.com/sunvis0r/SmartQueen#OWLClass_5a83d554_161a_4460_88e9_798d73fbadc0"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T09:33:13Z</dc:date>
+        <rdfs:label xml:lang="en">AliOS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_72ef0669_cf82_4de0_9820_0b535bbae217 -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_72ef0669_cf82_4de0_9820_0b535bbae217">
+        <rdfs:subClassOf rdf:resource="https://github.com/sunvis0r/SmartQueen#OWLClass_dec03b25_6d0c_4323_8670_711efdd1721e"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T09:21:06Z</dc:date>
+        <rdfs:label xml:lang="en">Google integration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_7497ad9c_dc41_4d27_bc75_7f3225353416 -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_7497ad9c_dc41_4d27_bc75_7f3225353416">
+        <rdfs:subClassOf rdf:resource="https://github.com/sunvis0r/SmartQueen#OWLClass_5a83d554_161a_4460_88e9_798d73fbadc0"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T09:33:13Z</dc:date>
+        <rdfs:label xml:lang="en">MIUI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_75cd4ecd_e9ed_4a51_a8af_6ea4aa8d54ff -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_75cd4ecd_e9ed_4a51_a8af_6ea4aa8d54ff">
+        <rdfs:subClassOf rdf:resource="https://github.com/sunvis0r/SmartQueen#OWLClass_bcc9a6dd_735f_4034_8518_a864175c404c"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T12:52:01Z</dc:date>
+        <rdfs:label xml:lang="en">iPhone 3G s</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_771451fc_d33c_49bd_b4fe_88abcf11089a -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_771451fc_d33c_49bd_b4fe_88abcf11089a">
+        <rdfs:subClassOf rdf:resource="https://github.com/sunvis0r/SmartQueen#OWLClass_5a83d554_161a_4460_88e9_798d73fbadc0"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T09:33:13Z</dc:date>
+        <rdfs:label xml:lang="en">Smartisan OS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_79f71338_786e_48a8_ba2c_ac7fe53b0041 -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_79f71338_786e_48a8_ba2c_ac7fe53b0041">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T09:21:29Z</dc:date>
+        <rdfs:label xml:lang="en">Components</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_7b277430_d381_44bd_8d1a_8567ba563235 -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_7b277430_d381_44bd_8d1a_8567ba563235">
+        <rdfs:subClassOf rdf:resource="https://github.com/sunvis0r/SmartQueen#OWLClass_5a83d554_161a_4460_88e9_798d73fbadc0"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T09:33:13Z</dc:date>
+        <rdfs:label xml:lang="en">Indus OS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_7be19b49_f579_4666_9d38_b55777c3f64b -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_7be19b49_f579_4666_9d38_b55777c3f64b">
+        <rdfs:subClassOf rdf:resource="https://github.com/sunvis0r/SmartQueen#OWLClass_56a9b768_2d37_47c4_888c_69e2860ad7bb"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T09:28:33Z</dc:date>
+        <rdfs:label xml:lang="en">Nokia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_8106297b_0f27_4c9c_9a2b_86f9734f7ec0 -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_8106297b_0f27_4c9c_9a2b_86f9734f7ec0">
+        <rdfs:subClassOf rdf:resource="https://github.com/sunvis0r/SmartQueen#OWLClass_5a83d554_161a_4460_88e9_798d73fbadc0"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T09:33:13Z</dc:date>
+        <rdfs:label xml:lang="en">HarmonyOS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_830c7525_d4e9_4691_9c05_aebc2abd1040 -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_830c7525_d4e9_4691_9c05_aebc2abd1040">
+        <rdfs:subClassOf rdf:resource="https://github.com/sunvis0r/SmartQueen#OWLClass_dec03b25_6d0c_4323_8670_711efdd1721e"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T13:30:57Z</dc:date>
+        <rdfs:label xml:lang="en">Wi-Fi</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_8436cf1d_5bed_40c0_a0e6_a4ea0d20118a -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_8436cf1d_5bed_40c0_a0e6_a4ea0d20118a">
+        <rdfs:subClassOf rdf:resource="https://github.com/sunvis0r/SmartQueen#OWLClass_bcc9a6dd_735f_4034_8518_a864175c404c"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T12:50:01Z</dc:date>
+        <rdfs:label xml:lang="en">iPhone 5</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_8d132e6c_26b6_45a7_a1b2_b6d79ff23b45 -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_8d132e6c_26b6_45a7_a1b2_b6d79ff23b45">
+        <rdfs:subClassOf rdf:resource="https://github.com/sunvis0r/SmartQueen#OWLClass_dec03b25_6d0c_4323_8670_711efdd1721e"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T09:22:14Z</dc:date>
+        <rdfs:comment xml:lang="en">to MicroSD</rdfs:comment>
+        <rdfs:label xml:lang="en">Apps moving to external storage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_90e62cf2_447a_40fb_bafd_2aaf60f6c248 -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_90e62cf2_447a_40fb_bafd_2aaf60f6c248">
+        <rdfs:subClassOf rdf:resource="https://github.com/sunvis0r/SmartQueen#OWLClass_325d71dd_c06b_4c03_9298_2cc030741f85"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T09:18:11Z</dc:date>
+        <rdfs:label xml:lang="en">Android</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_96bc035d_f316_4423_8180_86e2b9d756a3 -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_96bc035d_f316_4423_8180_86e2b9d756a3">
+        <rdfs:subClassOf rdf:resource="https://github.com/sunvis0r/SmartQueen#OWLClass_4652f0c7_ad36_4251_831c_41f1a498448d"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T09:24:00Z</dc:date>
+        <rdfs:label xml:lang="en">diagonal 5.5</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_9e095721_9d9c_4b1e_84f3_cd8537b03e52 -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_9e095721_9d9c_4b1e_84f3_cd8537b03e52">
+        <rdfs:subClassOf rdf:resource="https://github.com/sunvis0r/SmartQueen#OWLClass_5a83d554_161a_4460_88e9_798d73fbadc0"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T09:33:13Z</dc:date>
+        <rdfs:label xml:lang="en">One UI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_9ff15b1a_215c_477f_a3e8_0d505156cf78 -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_9ff15b1a_215c_477f_a3e8_0d505156cf78">
+        <rdfs:subClassOf rdf:resource="https://github.com/sunvis0r/SmartQueen#OWLClass_c4e7de4f_82b0_4267_ac70_68c7633cdf56"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T09:25:07Z</dc:date>
+        <rdfs:label xml:lang="en">Samsung Galaxy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_a0874bed_a120_4c93_922d_9332a0d36656 -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_a0874bed_a120_4c93_922d_9332a0d36656">
+        <rdfs:subClassOf rdf:resource="https://github.com/sunvis0r/SmartQueen#OWLClass_56a9b768_2d37_47c4_888c_69e2860ad7bb"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T09:28:42Z</dc:date>
+        <rdfs:label xml:lang="en">ZTE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_a47981d1_1a65_45c8_8662_6e962dad96ba -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_a47981d1_1a65_45c8_8662_6e962dad96ba">
+        <rdfs:subClassOf rdf:resource="https://github.com/sunvis0r/SmartQueen#OWLClass_5a83d554_161a_4460_88e9_798d73fbadc0"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T09:33:13Z</dc:date>
+        <rdfs:label xml:lang="en">OmniROM</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_a8859aea_c070_4058_a919_ccd3917399e2 -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_a8859aea_c070_4058_a919_ccd3917399e2">
+        <rdfs:subClassOf rdf:resource="https://github.com/sunvis0r/SmartQueen#OWLClass_5a83d554_161a_4460_88e9_798d73fbadc0"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T09:33:13Z</dc:date>
+        <rdfs:label xml:lang="en">Fire OS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_ab3ced01_ec67_4e79_a600_334ddb7b97c8 -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_ab3ced01_ec67_4e79_a600_334ddb7b97c8">
+        <rdfs:subClassOf rdf:resource="https://github.com/sunvis0r/SmartQueen#OWLClass_c4e7de4f_82b0_4267_ac70_68c7633cdf56"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T12:48:02Z</dc:date>
+        <rdfs:label xml:lang="en">Samsung Wave</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_acab0e2b_1b22_4416_8bfb_7e40143e0ecb -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_acab0e2b_1b22_4416_8bfb_7e40143e0ecb">
+        <rdfs:subClassOf rdf:resource="https://github.com/sunvis0r/SmartQueen#OWLClass_5a83d554_161a_4460_88e9_798d73fbadc0"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T09:33:13Z</dc:date>
+        <rdfs:label xml:lang="en">EMUI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_b0f71dd5_95db_41ce_a8d5_e647f884ee69 -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_b0f71dd5_95db_41ce_a8d5_e647f884ee69">
+        <rdfs:subClassOf rdf:resource="https://github.com/sunvis0r/SmartQueen#OWLClass_5a83d554_161a_4460_88e9_798d73fbadc0"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T09:33:13Z</dc:date>
+        <rdfs:label xml:lang="en">SlimRoms</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_b195f3a6_8e3a_4673_97f5_775fbe5404a2 -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_b195f3a6_8e3a_4673_97f5_775fbe5404a2">
+        <rdfs:subClassOf rdf:resource="https://github.com/sunvis0r/SmartQueen#OWLClass_56a9b768_2d37_47c4_888c_69e2860ad7bb"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T09:28:15Z</dc:date>
+        <rdfs:label xml:lang="en">OPPO</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_b5a9efe5_2bfb_4129_9abe_ce6656e51372 -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_b5a9efe5_2bfb_4129_9abe_ce6656e51372">
+        <rdfs:subClassOf rdf:resource="https://github.com/sunvis0r/SmartQueen#OWLClass_79f71338_786e_48a8_ba2c_ac7fe53b0041"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/sunvis0r/SmartQueen#OWLClass_dec03b25_6d0c_4323_8670_711efdd1721e"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T13:14:18Z</dc:date>
+        <rdfs:label xml:lang="en">Rear camera</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_b5ec07b2_d28d_4712_98c7_1b7d4a19ca7e -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_b5ec07b2_d28d_4712_98c7_1b7d4a19ca7e">
+        <rdfs:subClassOf rdf:resource="https://github.com/sunvis0r/SmartQueen#OWLClass_56a9b768_2d37_47c4_888c_69e2860ad7bb"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T09:20:04Z</dc:date>
+        <rdfs:label xml:lang="en">Huawei</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_b7b050f7_0a8f_4d93_847d_ef9b3a8bd5eb -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_b7b050f7_0a8f_4d93_847d_ef9b3a8bd5eb">
+        <rdfs:subClassOf rdf:resource="https://github.com/sunvis0r/SmartQueen#OWLClass_bcc9a6dd_735f_4034_8518_a864175c404c"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T12:52:01Z</dc:date>
+        <rdfs:label xml:lang="en">iPhone 5c</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_b9722763_ac77_4ed3_96ac_b7f71a06328b -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_b9722763_ac77_4ed3_96ac_b7f71a06328b">
+        <rdfs:subClassOf rdf:resource="https://github.com/sunvis0r/SmartQueen#OWLClass_325d71dd_c06b_4c03_9298_2cc030741f85"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T09:18:14Z</dc:date>
+        <rdfs:label xml:lang="en">Android Open Source Project</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_ba7fd31b_045a_44e6_a849_f5ec800864f3 -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_ba7fd31b_045a_44e6_a849_f5ec800864f3">
+        <rdfs:subClassOf rdf:resource="https://github.com/sunvis0r/SmartQueen#OWLClass_5a83d554_161a_4460_88e9_798d73fbadc0"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T09:33:13Z</dc:date>
+        <rdfs:label xml:lang="en">AOKP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_bcc9a6dd_735f_4034_8518_a864175c404c -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_bcc9a6dd_735f_4034_8518_a864175c404c">
+        <rdfs:subClassOf rdf:resource="https://github.com/sunvis0r/SmartQueen#OWLClass_52b86655_d407_43dd_8c57_dc80ef93d287"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T12:48:38Z</dc:date>
+        <rdfs:label xml:lang="en">Apple</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_beb3e1ce_21d8_4ffa_b47a_41ab876b0fa5 -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_beb3e1ce_21d8_4ffa_b47a_41ab876b0fa5">
+        <rdfs:subClassOf rdf:resource="https://github.com/sunvis0r/SmartQueen#OWLClass_bcc9a6dd_735f_4034_8518_a864175c404c"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T12:48:41Z</dc:date>
+        <rdfs:label xml:lang="en">iPhone 6</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_c0fce634_61ec_499a_adc3_97a02309d537 -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_c0fce634_61ec_499a_adc3_97a02309d537">
+        <rdfs:subClassOf rdf:resource="https://github.com/sunvis0r/SmartQueen#OWLClass_dec03b25_6d0c_4323_8670_711efdd1721e"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T09:20:11Z</dc:date>
+        <rdfs:label xml:lang="en">Retractable camera</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_c4e7de4f_82b0_4267_ac70_68c7633cdf56 -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_c4e7de4f_82b0_4267_ac70_68c7633cdf56">
+        <rdfs:subClassOf rdf:resource="https://github.com/sunvis0r/SmartQueen#OWLClass_52b86655_d407_43dd_8c57_dc80ef93d287"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T09:24:57Z</dc:date>
+        <rdfs:label xml:lang="en">Samsung</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_c5e00dcc_4528_4641_8c61_e9ec08112cb7 -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_c5e00dcc_4528_4641_8c61_e9ec08112cb7">
+        <rdfs:subClassOf rdf:resource="https://github.com/sunvis0r/SmartQueen#OWLClass_5a83d554_161a_4460_88e9_798d73fbadc0"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T09:33:13Z</dc:date>
+        <rdfs:label xml:lang="en">CopperheadOS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_c7db39e6_cc97_4c97_82a3_5418af0c8188 -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_c7db39e6_cc97_4c97_82a3_5418af0c8188">
+        <rdfs:subClassOf rdf:resource="https://github.com/sunvis0r/SmartQueen#OWLClass_5a83d554_161a_4460_88e9_798d73fbadc0"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T09:33:13Z</dc:date>
+        <rdfs:label xml:lang="en">/e/</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_cd55947a_909e_483d_bf30_2ab5e9661be2 -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_cd55947a_909e_483d_bf30_2ab5e9661be2">
+        <rdfs:subClassOf rdf:resource="https://github.com/sunvis0r/SmartQueen#OWLClass_5a83d554_161a_4460_88e9_798d73fbadc0"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T09:33:13Z</dc:date>
+        <rdfs:label xml:lang="en">Shift OS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_ce90c305_9dc6_4ad6_9d19_ffcf5d208f9b -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_ce90c305_9dc6_4ad6_9d19_ffcf5d208f9b">
+        <rdfs:subClassOf rdf:resource="https://github.com/sunvis0r/SmartQueen#OWLClass_5a83d554_161a_4460_88e9_798d73fbadc0"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T09:33:13Z</dc:date>
+        <rdfs:label xml:lang="en">Paranoid Android</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_ceb5e12b_8e79_4601_a866_2cd15173132b -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_ceb5e12b_8e79_4601_a866_2cd15173132b">
+        <rdfs:subClassOf rdf:resource="https://github.com/sunvis0r/SmartQueen#OWLClass_56a9b768_2d37_47c4_888c_69e2860ad7bb"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T09:28:20Z</dc:date>
+        <rdfs:label xml:lang="en">Vivo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_cf0b5bc6_5920_4be9_bd27_c2e3ddcffeff -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_cf0b5bc6_5920_4be9_bd27_c2e3ddcffeff">
+        <rdfs:subClassOf rdf:resource="https://github.com/sunvis0r/SmartQueen#OWLClass_5a83d554_161a_4460_88e9_798d73fbadc0"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T09:33:13Z</dc:date>
+        <rdfs:label xml:lang="en">Baidu Yi</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_d79eded9_6b72_463d_a1de_efb39e609075 -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_d79eded9_6b72_463d_a1de_efb39e609075">
+        <rdfs:subClassOf rdf:resource="https://github.com/sunvis0r/SmartQueen#OWLClass_5a83d554_161a_4460_88e9_798d73fbadc0"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T09:33:13Z</dc:date>
+        <rdfs:label xml:lang="en">crDroid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_d8c1eeff_95af_4b4f_b1fb_9fd4ef9300df -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_d8c1eeff_95af_4b4f_b1fb_9fd4ef9300df">
+        <rdfs:subClassOf rdf:resource="https://github.com/sunvis0r/SmartQueen#OWLClass_5a83d554_161a_4460_88e9_798d73fbadc0"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T09:33:13Z</dc:date>
+        <rdfs:label xml:lang="en">DivestOS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_dcfafe71_96ce_48ae_aeef_25cfc828b3b8 -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_dcfafe71_96ce_48ae_aeef_25cfc828b3b8">
+        <rdfs:subClassOf rdf:resource="https://github.com/sunvis0r/SmartQueen#OWLClass_9ff15b1a_215c_477f_a3e8_0d505156cf78"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T12:46:20Z</dc:date>
+        <rdfs:label xml:lang="en">Samsung Galaxy S</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_dda7a419_1ba9_48fe_a9e8_ff370deeed3d -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_dda7a419_1ba9_48fe_a9e8_ff370deeed3d">
+        <rdfs:subClassOf rdf:resource="https://github.com/sunvis0r/SmartQueen#OWLClass_14631e95_c05d_447c_a8fe_b912176f976b"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T13:05:52Z</dc:date>
+        <rdfs:label xml:lang="en">Count of SIM slots</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_dec03b25_6d0c_4323_8670_711efdd1721e -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_dec03b25_6d0c_4323_8670_711efdd1721e">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T09:17:58Z</dc:date>
+        <rdfs:label xml:lang="en">Technologies</rdfs:label>
+        <rdfs:seeAlso xml:lang="en">https://www.oppo.com/my/store/contents/legal/open-source-software-notice/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_e647b626_bf6f_4fd8_94fa_0b698cbeb9ed -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_e647b626_bf6f_4fd8_94fa_0b698cbeb9ed">
+        <rdfs:subClassOf rdf:resource="https://github.com/sunvis0r/SmartQueen#OWLClass_79f71338_786e_48a8_ba2c_ac7fe53b0041"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/sunvis0r/SmartQueen#OWLClass_dec03b25_6d0c_4323_8670_711efdd1721e"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T13:14:14Z</dc:date>
+        <rdfs:label xml:lang="en">Front camera</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_f5c0ffac_7b6e_4e8f_a948_e879c5eec61c -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_f5c0ffac_7b6e_4e8f_a948_e879c5eec61c">
+        <rdfs:subClassOf rdf:resource="https://github.com/sunvis0r/SmartQueen#OWLClass_bcc9a6dd_735f_4034_8518_a864175c404c"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T12:48:49Z</dc:date>
+        <rdfs:label xml:lang="en">iPhone 6s</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_f64c2403_12fb_424b_afa1_29ad2621d90b -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_f64c2403_12fb_424b_afa1_29ad2621d90b">
+        <rdfs:subClassOf rdf:resource="https://github.com/sunvis0r/SmartQueen#OWLClass_5a83d554_161a_4460_88e9_798d73fbadc0"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T09:33:13Z</dc:date>
+        <rdfs:label xml:lang="en">GrapheneOS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_f799b290_ae24_4e7d_9561_d971f1585346 -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_f799b290_ae24_4e7d_9561_d971f1585346">
+        <rdfs:subClassOf rdf:resource="https://github.com/sunvis0r/SmartQueen#OWLClass_56a9b768_2d37_47c4_888c_69e2860ad7bb"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T09:20:04Z</dc:date>
+        <rdfs:label xml:lang="en">Samsung</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sunvis0r/SmartQueen#OWLClass_fc5678f5_d118_45c4_b676_999ac350f702 -->
+
+    <owl:Class rdf:about="https://github.com/sunvis0r/SmartQueen#OWLClass_fc5678f5_d118_45c4_b676_999ac350f702">
+        <rdfs:subClassOf rdf:resource="https://github.com/sunvis0r/SmartQueen#OWLClass_dec03b25_6d0c_4323_8670_711efdd1721e"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProtegeUser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-30T09:20:11Z</dc:date>
+        <rdfs:comment xml:lang="en">User access to switch between local profiles</rdfs:comment>
+        <rdfs:label xml:lang="en">Local accounts</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
